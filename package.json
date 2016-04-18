@@ -1,0 +1,26 @@
+{
+  "name": "transantiago-client",
+  "version": "1.0.0",
+  "description": "No oficial api for query data from Transantiago",
+  "main": "src/transantiago-client.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dinoshunter/transantiago-client.git"
+  },
+  "keywords": [
+    "transantiago",
+    "wireless-iq",
+    "simt",
+    "api",
+    "micro",
+    "bus"
+  ],
+  "author": "Marcelo M. A. <ma.munoz.araya@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "cheerio": "^0.20.0",
+    "random-mobile-ua": "^1.0.9",
+    "request-promise": "^3.0.0"
+  }
+}

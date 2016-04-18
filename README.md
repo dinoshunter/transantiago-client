@@ -1,6 +1,6 @@
 # Transantiago api
 
-No oficial api for query data from Transantiago, powered  by [Bluebird][1] promises.
+No oficial api for query data from Transantiago, powered by [Bluebird][1] promises.
 
 # Install
 ```sh
@@ -9,20 +9,19 @@ npm install transantiago-client --save
 
 # Usage
 
-Ej: Query for time buses arribal and distance  to bus stop pc155.
+Ej: Query for time buses arribal and distance to bus stop pc155.
 
 ```javascript
 var tsapi = require("transantiago-client");
 
-
 tsapi("pc155").then( r => {
 
-//do something
+  //do something
   console.log(JSON.stringify(r));
 
 }).catch(err => {
     console.log(err)
-})
+});
 ```
 
 The result is:

@@ -1,6 +1,6 @@
 {
   "name": "transantiago-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "No oficial api for query data from Transantiago",
   "main": "src/transantiago-client.js",
   "repository": {

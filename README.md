@@ -1,6 +1,7 @@
 # Transantiago api
 
-No oficial api for query data from Transantiago, powered by [Bluebird][1] promises.
+No oficial api for query data from [Transantiago](http://www.transantiago.cl/) and
+get closest buses to bus stop.
 
 # Install
 ```sh
@@ -74,6 +75,3 @@ The result is:
 }
 
 ```
-
-
-[1]: http://bluebirdjs.com/docs/getting-started.html

@@ -1,6 +1,6 @@
 var request = require("request-promise");
 var rua     = require('random-mobile-ua');
-var parse   = require("./parseResponce.js");
+var parse   = require("./parseResponse.js");
 
 
 module.exports = function(stopcode) {

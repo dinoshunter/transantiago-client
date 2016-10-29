@@ -34,14 +34,14 @@ module.exports = function (body) {
             break;
         }
         case 2:{
-            // say: servies is out operation time
+            // say: service is out operation time
             let bus = $(tr).children().eq(0).text().trim().replace(/(\r\n|\n|\r)/gm," ").trim();
             outOfServices.push(bus);
             return;
             break;
         }
         case 3:{
-            // add bus  on current service
+            // add bus on current service
             let bus          = $(tr).children().eq(0).text().trim().replace(/(\r\n|\n|\r)/gm," ").trim();
             let arrivaltime  = $(tr).children().eq(1).text().trim().replace(/(\r\n|\n|\r)/gm," ").trim();
             let dist         = $(tr).children().eq(2).text().trim().replace(/(\r\n|\n|\r)/gm," ").trim();
@@ -53,7 +53,7 @@ module.exports = function (body) {
             break;
         }
         case 4:{
-            // start servise data, this is current servise.
+            // start service data, this is current service.
             let service     = $(tr).children().eq(0).text().trim().replace(/(\r\n|\n|\r)/gm," ").trim();
             let bus         = $(tr).children().eq(1).text().trim().replace(/(\r\n|\n|\r)/gm," ").trim();
             let arrivaltime = $(tr).children().eq(2).text().trim().replace(/(\r\n|\n|\r)/gm," ").trim();

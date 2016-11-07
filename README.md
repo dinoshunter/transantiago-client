@@ -1,6 +1,6 @@
 # Transantiago api
 
-No oficial api for query data from [Transantiago](http://www.transantiago.cl/) and
+Non official api for querying data from [Transantiago](http://www.transantiago.cl/) and
 get closest buses to bus stop.
 
 # Install
@@ -10,7 +10,7 @@ npm install transantiago-client --save
 
 # Usage
 
-Ej: Query for time buses arribal and distance to bus stop pc155.
+Example: Query for buses arrival time and distance to bus stop pc155.
 
 ```javascript
 var tsapi = require("transantiago-client");

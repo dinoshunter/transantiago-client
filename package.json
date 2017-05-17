@@ -18,8 +18,9 @@
   "author": "Marcelo M. A. <ma.munoz.araya@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "cheerio": "^0.20.0",
+    "cheerio": "^0.22.0",
     "random-mobile-ua": "^1.0.9",
-    "request-promise": "^3.0.0"
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
   }
 }

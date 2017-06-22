@@ -6,7 +6,7 @@ var parse   = require("./parseResponse.js");
 module.exports = function(stopcode) {
 
     var options = {
-        uri: `http://m.ibus.cl/Servlet?paradero=${ stopcode }&servicio=&button=Consulta+Paradero+`,
+        uri: `http://m.ibus.cl/Servlet?paradero=${ stopcode }&servicio=&button=Consulta+Paradero`,
         headers: {
             'User-Agent': rua.randomPhoneAgent().agent
         },

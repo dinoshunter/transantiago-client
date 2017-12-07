@@ -75,3 +75,41 @@ The result is:
 }
 
 ```
+You may also include service code (the bus code) in your query:
+
+```javascript
+var tsapi = require("transantiago-client");
+
+tsapi("pa167", "210").then( r => {
+
+  //do something
+  console.log(JSON.stringify(r));
+
+}).catch(err => {
+    console.log(err)
+});
+```
+
+The result is
+```json
+{
+	"avail": [
+		{
+			"service": "210",
+			"buses": [
+				{
+					"bus": "ZN6619",
+					"arrivaltime": "Menos de 5 min.",
+					"dist": "540  mts."
+				},
+				{
+					"bus": "ZU5657",
+					"arrivaltime": "Entre 10 Y 16 min.",
+					"dist": "2740  mts."
+				}
+			]
+		}
+	],
+	"outof": []
+}
+```

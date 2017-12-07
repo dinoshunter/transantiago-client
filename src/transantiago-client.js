@@ -3,10 +3,9 @@ var rua     = require('random-mobile-ua');
 var parse   = require("./parseResponse.js");
 
 
-module.exports = function(stopcode) {
-
+module.exports = function(stopcode, servicecode) {
     var options = {
-        uri: `http://m.ibus.cl/Servlet?paradero=${ stopcode }&servicio=&button=Consulta+Paradero`,
+        uri: `http://m.ibus.cl/Servlet?paradero=${ stopcode }&servicio=${ servicecode ? servicecode : "" }&button=Consulta+Paradero`,
         headers: {
             'User-Agent': rua.randomPhoneAgent().agent
         },
